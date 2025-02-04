@@ -8,10 +8,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        lightHover: "#dbc9c8",
+        darkHover:"#8f8181",
+        darkTheme:"#000000",
       },
+      fontFamily: {
+        Outfit: ["Outfit", "sans-serif"],
+        Ovo: ["Ovo","serif"]
+      },
+      boxShadow:{
+        'black': '4px 4px 0 #000',
+        'white': '4px 4px 0 #fff',
+      },
+      gridTemplateColumns:{
+        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
+      }
     },
   },
+  darkMode: 'selector',
   plugins: [],
 };
