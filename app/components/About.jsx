@@ -40,14 +40,14 @@ const About = ({isDarkMode}) => {
         transition={{duration:0.6, delay:0.5 }}
         
         className='w-64 sm:w-80 rounded-3xl max-w-none'>
-            <Image src={assets.user_image} alt='user image' className='w-full rounded-3xl'/>
+            <Image src={assets.about_section_image} alt='user image' className='w-full rounded-3xl'/>
         </motion.div>
         <motion.div 
               initial={{opacity: 0}}
               whileInView={{opacity:1}}
               transition={{duration:0.8, delay:0.6 }}
         className='flex-1'>
-            <p className='mb-10 max-w-2xl font-Ovo'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore iste assumenda accusamus odio minus laboriosam sit sint ut veniam maiores quas animi consequatur tempore amet beatae voluptate reiciendis, provident neque?</p>
+            <p className='mb-10 max-w-2xl font-Ovo'>With expertise in both frontend and backend technologies, I have successfully developed and deployed impactful solutions for large-scale organizations like Barclays. I specialize in building scalable systems using React, Node.js, Python, and cloud technologies such as Kubernetes and Docker. My goal is to create efficient, user-centric applications while continually learning and adapting to emerging technologies.</p>
             <motion.ul 
             initial={{opacity: 0}}
             whileInView={{opacity:1}}

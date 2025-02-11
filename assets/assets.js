@@ -35,6 +35,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import profile_image from './profile_image.png';
+import about_section_image from './about_section_image.png';
 
 export const assets = {
     user_image,
@@ -73,7 +75,9 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    profile_image,
+    about_section_image
 };
 
 export const workData = [
@@ -107,8 +111,8 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, MERN, Next, Docker, Openshift' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MS in Information Systems @ NEU Boston' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 

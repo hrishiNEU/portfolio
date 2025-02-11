@@ -25,14 +25,14 @@ const Services = () => {
   whileInView={{y:0, opacity:1}}
   transition={{duration:0.5, delay:0.5 }}
       
-      className='text-center text-5xl font-Ovo'>My Services</motion.h2>
+      className='text-center text-5xl font-Ovo'>My Expertise</motion.h2>
       <motion.p 
       
       initial={{opacity: 0}}
   whileInView={{opacity:1}}
   transition={{duration:0.5, delay:0.7 }}
       
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, tenetur. Cum recusandae voluptate minima exercitationem deserunt ducimus cumque, tempore voluptas ad et voluptatum facere fugit corporis, quis a dolore? Nulla.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I specialize in full-stack development, leveraging technologies like React, Node.js, and Python to build dynamic, scalable applications. With strong experience in cloud platforms such as Kubernetes, Docker, and OpenShift, I excel in deploying resilient systems and automating workflows. My expertise extends to backend frameworks like Django and Flask, enabling seamless integration and efficient database management.</motion.p>
 
       <motion.div 
       

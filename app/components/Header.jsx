@@ -12,7 +12,7 @@ const Header = () => {
         whileInView={{scale:1}}
         transition={{duration:0.8, type:'spring',stiffness:100}}
       >
-        <Image src={assets.profile_img} alt='' className='rounded-full w-32 '/>
+        <Image src={assets.profile_image} alt='' className='rounded-full w-32 '/>
       </motion.div>
       <motion.h3 
 
@@ -34,7 +34,7 @@ const Header = () => {
       whileInView={{opacity:1}}
       transition={{duration:0.6, delay:0.7 }}
 
-      className='max-w-2xl mx-auto font-Ovo'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque sunt culpa ex vel eaque eum hic cum quia maiores at ea, facilis consectetur? Facilis dicta dolores illo deserunt esse modi!</motion.p>
+      className='max-w-2xl mx-auto font-Ovo'>I am a Full Stack Developer and Automation Specialist with a strong background in cloud technologies, software engineering, and application development. Passionate about delivering scalable solutions and improving operational efficiency through innovative technologies!</motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4 '>
         <motion.a 
@@ -49,7 +49,7 @@ const Header = () => {
       whileInView={{y:0,opacity:1}}
       transition={{duration:0.6, delay:1.2 }}
         
-        href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>My resume <Image src={assets.download_icon} alt='' className='w-4'/> </motion.a>
+        href="/Hrishikesh Kulkarni Resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>My resume <Image src={assets.download_icon} alt='' className='w-4'/> </motion.a>
       </div>
     </div>
   )
