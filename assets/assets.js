@@ -38,6 +38,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import profile_image from './profile_image.png';
 import about_section_image from './about_section_image.png';
 
+
 export const assets = {
     user_image,
     code_icon,
@@ -77,29 +78,33 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     profile_image,
-    about_section_image
+    about_section_image,
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Super Mail',
+        description: 'AI Application',
+        bgImage: '/work1.png',
+        link: 'https://github.com/hrishiNEU/supermail',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Hobby Hub',
+        description: 'MERN Web App',
+        bgImage: '/work2.png',
+        link: 'https://github.com/hrishiNEU/INFO_6150_HFinal_Project',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Crisis Connect',
+        description: 'Java Application',
+        bgImage: '/work3.png',
+        link: 'https://github.com/hrishiNEU/INFO5100_Final_Project',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Auto AWS',
+        description: 'Cloud Application',
+        bgImage: '/work4.png',
+        link: 'https://github.com/hrishiNEU/AWSTerraform',
     },
 ]
 
@@ -111,9 +116,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, MERN, Next, Docker, Openshift' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MS in Information Systems @ NEU Boston' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, JavaScript, MERN, Docker, AWS' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'MSIS at Northeastern University, Boston' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Work Experience', description: '4+ years as Software and Cloud Developmer' }
 ];
 
 export const toolsData = [

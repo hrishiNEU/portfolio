@@ -14,9 +14,9 @@ const Footer = ({isDarkMode}) => {
             <p>Created by Hrishikesh Kulkarni</p>
             <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                 <li><a target='_blank' href="https://hrishineu.github.io">GitHub</a></li>
-                <li><a target='_blank' href="https://hrishineu.github.io">LinkedIn</a></li>
-                <li><a target='_blank' href="https://hrishineu.github.io">Leetcode</a></li>
-                <li><a target='_blank' href="https://hrishineu.github.io">Instagram</a></li>
+                <li><a target='_blank' href="https://www.linkedin.com/in/hrishikesh-kulkarni-neu/">LinkedIn</a></li>
+                <li><a target='_blank' href="https://leetcode.com/u/hrishi153/">Leetcode</a></li>
+                <li><a target='_blank' href="https://www.instagram.com/_hrishikesh___/">Instagram</a></li>
             </ul>
         </div>
 

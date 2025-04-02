@@ -47,7 +47,7 @@ const About = ({isDarkMode}) => {
               whileInView={{opacity:1}}
               transition={{duration:0.8, delay:0.6 }}
         className='flex-1'>
-            <p className='mb-10 max-w-2xl font-Ovo'>With expertise in both frontend and backend technologies, I have successfully developed and deployed impactful solutions for large-scale organizations like Barclays. I specialize in building scalable systems using React, Node.js, Python, and cloud technologies such as Kubernetes and Docker. My goal is to create efficient, user-centric applications while continually learning and adapting to emerging technologies.</p>
+            <p className='mb-10 max-w-2xl font-Ovo'>With expertise in both frontend and backend technologies, I have successfully developed and deployed impactful solutions for large-scale organizations like Barclays. I specialize in building scalable systems using React, Node.js, Python, and cloud technologies such as AWS and Docker. My goal is to create efficient, user-centric applications while continually learning and adapting to emerging technologies.</p>
             <motion.ul 
             initial={{opacity: 0}}
             whileInView={{opacity:1}}

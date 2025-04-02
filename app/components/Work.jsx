@@ -32,7 +32,7 @@ const Work = (isDarkMode) => {
       whileInView={{opacity:1}}
       transition={{duration:0.5, delay:0.7 }}
       
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, tenetur. Cum recusandae voluptate minima exercitationem deserunt ducimus cumque, tempore voluptas ad et voluptatum facere fugit corporis, quis a dolore? Nulla.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>As a full-stack developer, I'm passionate about building impactful and dynamic web applications. Below are some of my latest projects, showcasing my skills across both front-end and back-end development. Check them out and feel free to explore the links!</motion.p>
 
       <motion.div
       
@@ -56,7 +56,7 @@ const Work = (isDarkMode) => {
                         <p className='text-sm text-gray-700'>{project.description}</p>
                     </div>
                     <div className='border rounded-full border-black w-12 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
-                        <Image src={assets.send_icon} alt='' className='w-5'/>
+                        <Image src={assets.send_icon} alt='' className='w-5' onClick={() => window.open(project.link, '_blank')}/>
                     </div>
                 </div>
             </motion.div>
@@ -68,7 +68,7 @@ const Work = (isDarkMode) => {
       whileInView={{opacity:1}}
       transition={{duration:0.5, delay:1.1}}
       
-      href="" className='w-max flex items-center justify-cneter gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>Show more <Image src={isDarkMode?assets.right_arrow_bold_dark:assets.right_arrow_bold} alt='show more' className='w-4'/></motion.a>
+      href="https://github.com/hrishiNEU/" className='w-max flex items-center justify-cneter gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover'>Show more <Image src={isDarkMode?assets.right_arrow_bold_dark:assets.right_arrow_bold} alt='show more' className='w-4'/></motion.a>
     </motion.div>
   )
 }

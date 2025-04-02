@@ -59,7 +59,7 @@ const Contact = () => {
       whileInView={{opacity:1}}
       transition={{duration:0.5, delay:0.7 }}
 
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, tenetur. Cum recusandae voluptate minima exercitationem deserunt ducimus cumque, tempore voluptas ad et voluptatum facere fugit corporis, quis a dolore? Nulla.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I'm eager to hear from you! Whether you're looking to start a project or simply want to have a conversation, don't hesitate to get in touch. Send me a message, and I'll respond as soon as I can. Let's work together to bring your ideas to life—looking forward to connecting!</motion.p>
 
         <motion.form
         
